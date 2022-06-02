@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+textarea:focus, input:focus {
+  outline: 0;
+}
+input {
+  border-width: 0;
+}
+em {
+  font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.group:before,.group:after {
+  content: " ";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+embed,img,object,video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal;
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+}
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,*:after,*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 720px;
+}
+.background {
+  min-height: 720px;
+  position: relative;
+  z-index: 0;
+}
+.row {
+  margin: 0 auto;
+  min-height: 629px;
+  overflow: hidden;
+  padding: 21px 23px 39px;
+  position: relative;
+  width: 720px;
+  z-index: 3;
+  background: url(images/cirty_background.png) no-repeat;
+}
+.logo {
+  float: left;
+  position: relative;
+  width: 77px;
+}
+.icon {
+  float: left;
+  margin: 3px 4px 0 0;
+}
+.col {
+  float: left;
+  position: relative;
+  width: 43px;
+  z-index: 0;
+}
+.logo-2 {
+  position: relative;
+  z-index: 46;
+  color: #ffd100;
+  font-size: 0.867031em;
+  font-weight: 900;
+}
+.here {
+  margin: -2px 0 0;
+  position: relative;
+  z-index: 45;
+  font-size: 0.867031em;
+  font-weight: 800;
+}
+.col-4 {
+  float: left;
+  margin: 16px 0 0;
+  position: relative;
+  width: 519px;
+}
+.text {
+  font-size: 0.893098em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.text-2 {
+  display: block;
+  margin: 52px auto 0;
+}
+.business {
+  display: block;
+  margin: 31px auto 0;
+  position: relative;
+}
+.image {
+  display: block;
+  margin: -187px auto 0;
+  position: relative;
+}
+.texts {
+  display: table;
+  margin: -326px auto 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+.row-2 {
+  margin: 0 auto;
+  position: relative;
+  width: 600px;
+}
+.guest-speaker {
+  float: left;
+  margin: 16px 0 0;
+  position: relative;
+  width: 133px;
+  z-index: 0;
+}
+.text-3 {
+  position: relative;
+  z-index: 41;
+  font-size: 0.706467em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.text-4 {
+  margin: -4px 0 0;
+  position: relative;
+  z-index: 40;
+  color: #fcd501;
+  font-family: Allura, handwriting;
+  font-size: 1.778533em;
+  text-align: center;
+}
+.date {
+  float: right;
+  position: relative;
+  width: 136px;
+}
+.text-5 {
+  font-size: 1.011871em;
+  font-weight: 500;
+  text-align: center;
+}
+.text-6 {
+  color: #fdd600;
+  font-size: 1.384202em;
+  font-weight: 600;
+  text-align: center;
+}
+.join-now {
+  display: table;
+  margin: 203px auto 0;
+  min-height: 37px;
+  padding: 0 19px;
+  border: 2px solid #ffffff;
+  border-radius: 18.51px;
+  background-clip: padding-box;
+  font-size: 0.958164em;
+  font-weight: bold;
+  line-height: 37px;
+  text-align: center;
+}
+.information {
+  display: table;
+  margin: 11px auto 0;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.82214em;
+  font-weight: 500;
+  line-height: 1.500484em;
+  text-align: center;
+}
+.row-4 {
+  margin: -1px auto 0;
+  position: relative;
+  width: 674px;
+}
+.web {
+  float: left;
+  margin: 16px 0 0;
+  position: relative;
+  width: 178px;
+}
+.web-icon {
+  float: left;
+  margin: 0 5px 0 0;
+}
+.text-9 {
+  margin: 2px 0 0;
+  font-size: 0.781109em;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+.phone {
+  float: right;
+  position: relative;
+  width: 164px;
+}
+.text-10 {
+  font-size: 0.689653em;
+  font-weight: 600;
+  letter-spacing: -0.014em;
+  text-align: right;
+  text-transform: uppercase;
+}
+.row-3 {
+  margin: 1px 0 0;
+  position: relative;
+}
+.icon-2 {
+  float: left;
+  margin: 4px 8px 0 0;
+}
+.text-11 {
+  color: #feffff;
+  font-size: 1.383513em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.torn-paper {
+  margin: -187px auto 0;
+  padding: 7px 0 0;
+  position: relative;
+  width: 720px;
+  z-index: 14;
+  background: url(images/torn_paper.png) no-repeat;
+}
+.torn-paper-2 {
+  display: block;
+}
